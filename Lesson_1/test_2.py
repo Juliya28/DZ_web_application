@@ -12,7 +12,7 @@ def test_2(login, text1):
     
     
 def newpost(token):
-    a = requests.post('https://test-stand.gb.ru/api/posts', headers={'X-Auth-Token': token}, 
+    a = requests.post('https://test-stand.gb.ru/getway/posts', headers={'X-Auth-Token': token}, 
                       data={ 'title':'Просто новый пост!',
             'description':'Тестируем создание нового поста.',
             'content': 'Создаем новый пост, а потом проверяем его наличие.'} )
