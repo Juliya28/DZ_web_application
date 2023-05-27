@@ -42,7 +42,7 @@ def enter_content():
 
 @pytest.fixture()
 def save_post_btn():
-    return "button > span"
+    return """#create-item > div > div > div:nth-child(7) > div > button > span"""
 
 
 @pytest.fixture()
