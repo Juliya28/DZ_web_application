@@ -1,0 +1,9 @@
+address: https://test-stand.gb.ru
+sleep_time: 1
+browser: chrome
+wait: 3
+login: NatGlu
+passwd: db2d28bf9f
+title: New post for testing
+description: There must be some informaition here
+content: informaition about post
